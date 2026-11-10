@@ -1,0 +1,32 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.spyderproject
+.ropeproject
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporários, logs e modelos pesados (futuro módulo de IA)
+*.log
+*.tmp
+.cache/
+*.pt
+*.onnx
+*.weights
