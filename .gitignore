@@ -2,14 +2,14 @@
 .venv/
 venv/
 env/
-
+ 
 # Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 build/
 dist/
-
+ 
 # Editores / IDEs
 .vscode/
 .idea/
@@ -17,12 +17,12 @@ dist/
 *.swo
 .spyderproject
 .ropeproject
-
+ 
 # Sistema operacional
 .DS_Store
 Thumbs.db
 desktop.ini
-
+ 
 # Temporários, logs e modelos pesados (futuro módulo de IA)
 *.log
 *.tmp
@@ -30,3 +30,14 @@ desktop.ini
 *.pt
 *.onnx
 *.weights
+ 
+# Configuração local com senhas de câmeras
+config.py
+ 
+# Dados locais do piloto (vídeos, snapshots e banco de eventos) - LGPD
+storage/*.db
+storage/*.db-*
+storage/eventos/
+
+models/*.pt
+models/*.h5
